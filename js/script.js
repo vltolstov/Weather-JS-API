@@ -40,7 +40,7 @@ async function getWeather (cityId) {
     let result = '';
 
     let weather = new Promise((resolve, reject) => {
-        fetch(`http://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=41e5e32b8a9ebc2198afd15414eb4797&lang=ru`)
+        fetch(`http://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=&lang=ru`)
             .then(data => {
                 resolve(data.json());
             })
@@ -59,7 +59,7 @@ async function getForecast (cityId) {
     let result = '';
 
     let weather = new Promise((resolve, reject) => {
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=41e5e32b8a9ebc2198afd15414eb4797&lang=ru`)
+        fetch(`http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=&lang=ru`)
             .then(data => {
                 resolve(data.json());
             })
