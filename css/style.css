@@ -1,0 +1,121 @@
+html, body {
+    font-family: serif;
+}
+body {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px !important;
+}
+
+p {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    text-align-last: center;
+}
+
+.weather-now {
+    overflow: hidden;
+    border: 1px solid #607D8B;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.temp {
+    font-size: 36px;
+    padding: 15px 0px 10px 0px;
+}
+
+.temp-fill {
+    padding: 0px 0px 10px 0px;
+}
+
+.icon {
+    width: 100%;
+    text-align: center;
+}
+
+.icon img {
+    width: 200px;
+}
+
+.weather-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 0px 15px 0px;
+    font-weight: 500;
+}
+
+.humidity {
+    padding: 0px 0px 5px 0px;
+}
+
+.pressure {
+    padding: 0px 0px 15px 0px;
+}
+
+.sunrise {
+    padding: 0px 0px 10px 0px;
+}
+
+.sunset {
+    padding: 0px 0px 10px 0px;
+}
+
+.forecast {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.forecast-date {
+    font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    padding: 0px 0px 5px 0px;
+    border-bottom: 1px solid #263238;
+}
+
+.forecast-time {
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #FFF;
+    border-bottom: 1px solid #263238;
+}
+
+.forecast-temp {
+    text-align: right;
+}
+
+.forecast-title {
+    text-align: center;
+    font-size: 12px !important;
+}
+
+.forecast-icon img {
+    width: 60%;
+}
+
+.flex {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-item {
+    border-radius: 10px;
+    background:#607D8B;
+    margin-right: 1px;
+}
