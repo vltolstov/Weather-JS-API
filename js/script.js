@@ -20,7 +20,7 @@ function getCity () {
     return currentCity;
 }
 
-//преобразование времени их Unix в "часы : минуты"
+//преобразование времени из Unix в "часы : минуты"
 function timeConverter (unixTime) {
     let time = new Date(unixTime * 1000);
     let hour = time.getHours();
